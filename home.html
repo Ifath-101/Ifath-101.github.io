@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width.initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://www.pngitem.com/pimgs/m/485-4852378_sample-logo-png-transparent-png.png">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#footer">How it works</a></li>
+          <li><a class="nav-link" href="#price">Pricing</a></li>
+        </ul>
+      </nav>
+      <i onclick=showSideBar() id="menu" class="fa fa-bars" aria-hidden="true"></i>
+      <i onclick=closeSideBar() class="fa fa-times" id="close" aria-hidden="true"></i>
+    </header>
+    <div class="s-menu">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#footer">How it works</a></li>
+        <li><a class="nav-link" href="#price">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="connect">
+      <h1>Handcrafted, home-made masterpieces</h1>
+      <form id="form"action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" id="email" placeholder="Enter your email address">
+        <input id="submit" type="submit" value="Get Started">
+      </form>
+    </div>
+  
+    <div class="content" id="features">
+      <img class="c-img" src="https://static.thenounproject.com/png/954142-200.png">
+      <div class=".text">
+    <h3>Premium Materials</h3>
+    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+    </div>
+    </div>
+    <div class="content">
+      <img class="c-img" src="https://static.thenounproject.com/png/3592848-200.png">
+      <div class=".text">
+    <h3>Fast Shipping</h3>
+    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+    </div>
+    </div>
+    <div class="content">
+      <img class="c-img" src="https://cdn-icons-png.freepik.com/512/664/664881.png">
+      <div class=".text">
+    <h3>Quality Assurance</h3>
+    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+    </div>
+    </div>
+    <div class="video">
+      <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc" allowfullscreen></iframe>
+    </div>
+    <div class="price" id="price">
+      <div class="package">
+        <h4 class="pack-title">TENOR TROMBONE</h4>
+        <div class="descreption">
+          <h2>$600</h2>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum dolor.</p>
+          <p>Lorem ipsum.</p>
+        </div>
+        <input type="submit" class="submit" value="SELECT">
+      </div>
+      <div class="package">
+        <h4 class="pack-title">BASS TROMBONE</h4>
+        <div class="descreption">
+          <h2>$900</h2>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum dolor.</p>
+          <p>Lorem ipsum.</p>
+        </div>
+        <input type="submit" class="submit" value="SELECT">
+      </div>
+      <div class="package">
+        <h4 class="pack-title">VALVE TROMBONE</h4>
+        <div class="descreption">
+          <h2>$1200</h2>
+          <p>Lorem ipsum.</p>
+          <p>Great for Jazz Bands</p>
+          <p>Lorem ipsum dolor.</p>
+          <p>Plays similar to a Trumpet
+</p>
+        </div>
+        <input type="submit" class="submit" value="SELECT">
+      </div>
+    </div>
+    <footer id="footer">
+      @All rights reserved.
+      <p>Designed by Ifath Ahamed<p>
+    </footer>
+    <script>
+      function showSideBar(){
+        const sidebar = document.querySelector('.s-menu')
+        sidebar.style.display = 'flex'
+        const sicon = document.querySelector('#menu')
+        sicon.style.display = 'none'
+        const close = document.querySelector('#close')
+        close.style.display = 'flex'
+      }
+      function closeSideBar(){
+        const sidebar = document.querySelector('.s-menu')
+        sidebar.style.display = 'none'
+        const close = document.querySelector('#close')
+        close.style.display = 'none'
+        const sicon = document.querySelector('#menu')
+        sicon.style.display = 'flex'
+      }
+    </script>
+    
+  </body>
+</html>
