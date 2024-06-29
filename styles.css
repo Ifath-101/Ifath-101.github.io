@@ -170,7 +170,7 @@ body{
   .s-menu{
     position: fixed;
     margin-top: 4rem;
-    width: 99%;
+    width: 100%;
     min-width: 15rem;
     background-color: rgb(151, 151, 151);
     box-sizing: border-box;
