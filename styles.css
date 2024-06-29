@@ -148,11 +148,13 @@ body{
     font-size: 3rem;
     float: right;
     display: flex;
+    margin-right: 0.5rem;
   }
   #close{
     font-size: 3rem;
     float: right;
     display: none;
+    margin-right: 0.5rem;
   }
   .s-menu{
     margin-top: 4rem;
@@ -168,7 +170,7 @@ body{
   .s-menu li{
     display: block;
     width: 100%;
-    max-width: 18rem;
+    max-width: 100%;
     list-style-type: none;
     padding: 1rem;
     color: black;
