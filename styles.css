@@ -137,6 +137,10 @@ body{
 .c-img{
     width: 6rem;
     height: 6rem;
+    margin-top: 1rem;
+}
+.text p{
+    font-size: 0.8rem;
 }
   .package{
     width: 60%;
@@ -155,17 +159,17 @@ body{
     font-size: 3rem;
     float: right;
     display: flex;
-    margin-right: 0.5rem;
+    margin-right: 0.5rem !important;
   }
   #close{
     font-size: 3rem;
     float: right;
     display: none;
-    margin-right: 0.5rem;
+    margin-right: 0.5rem !important;
   }
   .s-menu{
     margin-top: 4rem;
-    width: 100%;
+    width: 100vw;
     min-width: 15rem;
     background-color: rgb(151, 151, 151);
     box-sizing: border-box;
