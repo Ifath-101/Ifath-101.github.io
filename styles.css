@@ -168,7 +168,7 @@ body{
     margin-right: 1.5rem !important;
   }
   .s-menu{
-    position: fixed;
+    position: fixed !important;
     margin-top: 4rem;
     width: 100%;
     min-width: 15rem;
