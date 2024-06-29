@@ -6,7 +6,7 @@ body{
     margin-top: 0;
     height: 6rem;
     position: fixed;
-    width: 100%;
+    width: 98%;
     overflow: hidden;
     background-color: rgb(230, 224, 224);
   }
@@ -72,7 +72,7 @@ body{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    min-width: 500px;
+    min-width: 480px;
   }
   .text{
     display: flex;
@@ -130,9 +130,9 @@ body{
     padding: 1rem;
     margin-top: 1rem;
     overflow: hidden;
-    width: 100%;
+    width: 98%;
     max-width: 100vw;
-    min-width: 300px;
+    min-width: 250px;
 }      
 .c-img{
     width: 6rem;
