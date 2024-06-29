@@ -75,7 +75,7 @@ body{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    min-width: 480px;
+    min-width: 450px;
   }
   .text{
     display: flex;
@@ -139,7 +139,7 @@ body{
   }
 .content{
     padding: 1rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
     margin-top: 1rem;
     overflow: hidden;
     width: 100vw;
@@ -147,9 +147,12 @@ body{
     min-width: 250px;
 }      
 .c-img{
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     margin-top: 1rem;
+}
+.text h3{
+    font-size: 0.8rem;
 }
 .text p{
     font-size: 0.7rem;
