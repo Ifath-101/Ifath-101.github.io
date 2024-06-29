@@ -159,17 +159,17 @@ body{
     font-size: 3rem;
     float: right;
     display: flex;
-    margin-right: 1rem !important;
+    margin-right: 1.5rem !important;
   }
   #close{
     font-size: 3rem;
     float: right;
     display: none;
-    margin-right: 0.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .s-menu{
     margin-top: 4rem;
-    width: 100vw;
+    width: 99%;
     min-width: 15rem;
     background-color: rgb(151, 151, 151);
     box-sizing: border-box;
@@ -191,6 +191,8 @@ body{
     border-radius: 5px;
     text-align: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .s-menu li:hover{
     background-color: grey;
