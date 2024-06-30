@@ -185,11 +185,13 @@ body{
     font-size: 3rem;
     float: right;
     display: flex;
+    margin-left: 1rem;
   }
   #close{
     font-size: 3rem;
     float: right;
     display: none;
+    margin-left: 1rem;
   }
   .s-menu{
     margin-top: 4rem;
