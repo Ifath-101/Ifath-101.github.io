@@ -75,7 +75,7 @@ body{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    min-width: 450px;
+    min-width: 400px;
   }
   .text{
     display: flex;
@@ -145,7 +145,10 @@ body{
     width: 100vw;
     max-width: 100vw;
     min-width: 250px;
-}      
+}    
+#video{
+    display: block;
+}
 .c-img{
     width: 4rem;
     height: 4rem;
