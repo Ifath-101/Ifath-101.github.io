@@ -145,9 +145,6 @@ body{
     width: 100vw;
     max-width: 100vw;
     min-width: 250px;
-}    
-#video{
-    display: inline-block;
 }
 .c-img{
     width: 4rem;
