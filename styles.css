@@ -152,6 +152,9 @@ body{
     height: 4rem;
     margin-top: 1rem;
 }
+.text{
+    border: 1px solid black;
+}
 .text h3{
     font-size: 0.8rem;
 }
