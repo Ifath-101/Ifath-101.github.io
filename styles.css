@@ -147,7 +147,7 @@ body{
     min-width: 250px;
 }    
 #video{
-    display: block;
+    display: inline-block;
 }
 .c-img{
     width: 4rem;
