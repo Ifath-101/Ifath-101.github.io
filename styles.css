@@ -190,13 +190,13 @@ body{
     font-size: 3rem;
     float: right;
     display: flex;
-    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   #close{
     font-size: 3rem;
     float: right;
     display: none;
-    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
   }
   .s-menu{
     margin-top: 4rem;
