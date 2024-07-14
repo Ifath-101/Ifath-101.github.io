@@ -123,6 +123,13 @@ body{
   #close{
     display: none;
   }
+.hidden{
+  opacity: 0;
+  transition: all 1.5s;
+}
+.show{
+  opacity: 1;
+}
   @media(min-width: 800px){
   .s-menu{
     display: none;
