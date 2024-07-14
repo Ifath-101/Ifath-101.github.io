@@ -33,21 +33,21 @@
         <input id="submit" type="submit" value="Get Started">
       </form>
     </div>
-    <div class="content" id="features">
+    <div class="content hidden" id="features">
       <img class="c-img" src="https://static.thenounproject.com/png/954142-200.png">
       <div class=".text">
     <h3>Premium Materials</h3>
     <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
     </div>
     </div>
-    <div class="content">
+    <div class="content hidden">
       <img class="c-img" src="https://static.thenounproject.com/png/3592848-200.png">
       <div class=".text">
     <h3>Fast Shipping</h3>
     <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
     </div>
     </div>
-    <div class="content">
+    <div class="content hidden">
       <img class="c-img" src="https://cdn-icons-png.freepik.com/512/664/664881.png">
       <div class=".text">
     <h3>Quality Assurance</h3>
@@ -59,7 +59,7 @@
     </div>
   </div>
     <div class="price" id="price">
-      <div class="package">
+      <div class="package hidden">
         <h4 class="pack-title">TENOR TROMBONE</h4>
         <div class="descreption">
           <h2>$600</h2>
@@ -70,7 +70,7 @@
         </div>
         <input type="submit" class="submit" value="SELECT">
       </div>
-      <div class="package">
+      <div class="package hidden">
         <h4 class="pack-title">BASS TROMBONE</h4>
         <div class="descreption">
           <h2>$900</h2>
@@ -81,7 +81,7 @@
         </div>
         <input type="submit" class="submit" value="SELECT">
       </div>
-      <div class="package">
+      <div class="package hidden">
         <h4 class="pack-title">VALVE TROMBONE</h4>
         <div class="descreption">
           <h2>$1200</h2>
@@ -115,6 +115,19 @@
         const sicon = document.querySelector('#menu')
         sicon.style.display = 'flex'
       }
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          console.log(entry)
+          if (entry.isIntersecting){
+            entry.target.classList.add('show');
+          } else {
+            entry.target.classList.remove('show');
+          }
+        });
+      });
+
+      const hiddenElements = document.querySelectorAll('.hidden');
+      hiddenElements.forEach((el) => observer.observe(el));
     </script>
     
   </body>
