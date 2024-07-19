@@ -13,6 +13,7 @@ body{
     width: 100%;
     overflow: hidden;
     background-color: rgb(230, 224, 224);
+    z-index: 999;
   }
   #header-img{
     width: 7rem;
@@ -154,6 +155,8 @@ body{
     height: 5rem;
     max-width: 100vw;
     overflow-x: hidden;
+    width: 100%;
+    z-index: 999;
   }
   .content{
     width: 100vw;
@@ -190,9 +193,6 @@ body{
         margin: 0;
         padding: 1rem;
         width: 100%;
-  }
-  #header{
-    width: 100%;
   }
   #nav-bar{
     display: none;
