@@ -193,6 +193,7 @@ body{
         margin: 0;
         padding: 1rem;
         width: 100%;
+        box-sizing: border-box;
   }
   #nav-bar{
     display: none;
