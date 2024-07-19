@@ -208,6 +208,7 @@ body{
     margin-right: 1.5rem !important;
   }
   .s-menu{
+    z-index: 999;
     margin-top: 4rem;
     width: 100%;
     max-width: 100vw;
